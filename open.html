@@ -1,0 +1,16 @@
+<meta name="robots" content="noindex, nofollow">
+<script>
+  let url = new URL(window.location.href);
+  let jid = url.searchParams.get("jid");
+  let uid = url.searchParams.get("uid");
+  let ptype = url.searchParams.get("ptype");
+  if(jid != null && uid != null && ptype != null) {
+    sessionStorage.setItem("jid", jid);
+    sessionStorage.setItem("uid", uid);
+    sessionStorage.setItem("ptype", ptype);
+  }
+  else {
+    sessionStorage.setItem("jup", "hblk_14d")
+  }
+  location.href = "/redirect.html";
+</script>
