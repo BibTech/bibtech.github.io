@@ -250,7 +250,7 @@ a {
 }
 .bad {
   width: calc(100% - 20px);
-  margin: 10px 0 15px 10px;
+  margin: 10px 0 0 10px;
 }
 footer {
   display: block;
@@ -258,6 +258,7 @@ footer {
   background: white;
   text-align: center;
   padding: 10px;
+  margin-top: 15px;
 }
 
 .promoCode {
